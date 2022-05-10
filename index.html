@@ -1,7 +1,7 @@
 ---
 layout: default
 fotka: 
- - image: /images/beton.jpg
+ - bg_image: /images/beton.jpg
 ---
 
 
@@ -23,5 +23,5 @@ fotka:
 </section>
 
 {%for item in page.fotka%}
-<section class="padded bg-image tall-60" style="background-image:url('{{item.image}}');"></section>
+<section class="padded bg-image tall-60" style="background-image:url('{{item.bg_image}}');"></section>
 {%endfor%}
