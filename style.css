@@ -1,0 +1,103 @@
+*{
+    padding: é;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #4F4D4B;
+    font-family: 'Roboto', sans-serif;
+}
+
+img { max-width: 100%; }
+
+[class*=grid] {
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* End temporary styles */
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded    { padding: 5%;    }
+.padded-1  { padding: 1rem;  }
+.padded-2  { padding: 2rem;  }
+
+
+.padded-t  { padding-top: 5%;     }
+.padded-b  { padding-bottom: 5%;  }
+.padded-l  { padding-left: 5%;    }
+.padded-r  { padding-right: 5%;   }
+
+.padded-0 { padding: 0; }
+.padded-b-0 { padding-bottom: 0; }
+.margin-b-0 { margin-bottom: 0; }
+
+
+.bg-rust     { background-color: #d3b4a2; }
+.bg-green     { background-color: #9b9b81;}
+.bg-dark     { background-color: #a2745c;  }
+
+.light-text { color: white; } 
+
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+
+.logo{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 8rem;
+    font-weight: 400;
+
+}
+
+.sm{
+    color: #e62400;
+}
+
+.text-md{
+    font-size: 3rem;
+}
+
+footer p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    
+}
+
+footer a:hover{
+    color: #e62400;
+
+}
+
+
+.bg-header{
+    background-image: url('/images/beton.jpg');
+    background-position: 50%;
+}
+
+
+.bg-image{
+    background-color: #4F4D4B;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+

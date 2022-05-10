@@ -1,0 +1,27 @@
+---
+layout: default
+fotka: 
+ - image: /images/beton.jpg
+---
+
+
+
+<section id="header" class="padded logo center bg-header bg-image">
+    <p><span class="sm">SM</span> ARCHITECTS</p>
+</section>
+
+
+
+
+
+
+<section class="padded grid-spaceAround">
+    <div class="col-8-middle center bg-banner text-md">
+        <p>Rekonstrujeme naše webové stránky.</p>
+    </div>
+
+</section>
+
+{%for item in page.fotka%}
+<section class="padded bg-image tall-60" style="background-image:url('{{item.image}}');"></section>
+{%endfor%}
