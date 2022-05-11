@@ -5,7 +5,7 @@
 }
 
 body{
-    color: #4F4D4B;
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -32,6 +32,7 @@ a{
 .tall-70 { min-height: 70vh; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
 
 
 .padded    { padding: 5%;    }
@@ -47,6 +48,8 @@ a{
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0; }
 .margin-b-0 { margin-bottom: 0; }
+.margin-b-5 { margin-bottom: 5%; }
+
 
 
 .bg-rust     { background-color: #d3b4a2; }
@@ -73,22 +76,28 @@ a{
 }
 
 .text-md{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
-footer p{
+
+h3{
+    font-size: 2rem;
+    color: #e62400;
+}
+
+#kontakt p{
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     
 }
 
-footer a:hover{
+#kontakt a:hover{
     color: #e62400;
 
 }
 
 
-.bg-header{
+.bg-beton{
     background-image: url('/images/beton.jpg');
     background-position: 50%;
 }
@@ -101,7 +110,10 @@ footer a:hover{
 
 }
 
-
+.button{
+    border: 2px solid #e62400;
+    padding: 1rem;
+}
 
 
 @media(max-width:48em){
