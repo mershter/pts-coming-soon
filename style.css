@@ -123,6 +123,7 @@ h3{
     .text-md{
         font-size: 2rem;
     }
+
 }
 
 @media(max-width:36em){
@@ -130,6 +131,12 @@ h3{
         font-size: 3rem;
     }
     .text-md{
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    #kontakt p{
+        font-size: 1.3rem;
+    }
+    h3{
+        font-size: 1.6rem;
     }
 }
