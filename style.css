@@ -25,6 +25,10 @@ a{
     display: inline-block;
 }
 
+[class*="col-"], [class*="col_"], [class~="col"]{
+    padding: 0;
+}
+
 
 /* End temporary styles */
 
@@ -39,6 +43,9 @@ a{
 .padded    { padding: 5%;    }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
+.padded-{ 
+    padding: 4% 5% 2% 5%;
+}
 
 
 .padded-t  { padding-top: 5%;     }
@@ -50,6 +57,14 @@ a{
 .padded-b-0 { padding-bottom: 0; }
 .margin-b-0 { margin-bottom: 0; }
 .margin-b-5 { margin-bottom: 5%; }
+
+.m-t-1{
+    margin-top: 1rem;
+}
+
+.m-l-5{
+    padding-top: 3%;
+}
 
 
 
@@ -66,8 +81,8 @@ a{
 
 
 .logo{
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
     font-weight: 400;
 
 }
@@ -77,9 +92,18 @@ a{
 }
 
 .text-md{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
+.socials{
+    font-size: 3rem;
+    padding: 0.5rem 0.2rem;
+    display: inline;
+}
+
+.footer-contact{
+    font-size: 1.5rem;
+}
 
 h3{
     font-size: 2rem;
@@ -115,6 +139,45 @@ h3{
 .button{
     border: 2px solid #e62400;
     padding: 1rem;
+}
+
+.bg-structure{
+    background-image: url('/images/structure.svg');
+    width: auto;
+}
+
+.bg-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-full-diamond{
+    background-image: url('/images/diamond-structure-for-website.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-placement{
+    background-image: url('/images/placements-structure.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+.white{
+    color: white;
+}
+
+a:hover{
+    color:#0700EE;
+    text-decoration: none;
 }
 
 
